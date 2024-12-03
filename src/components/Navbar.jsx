@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="w-full sticky top-0 bg-primary shadow-md hover:primary/50 transition duration-300 dark:bg-darkPrimary "
+      className="w-full z-50 sticky top-0 bg-primary shadow-md hover:primary/50 transition duration-300 dark:bg-darkPrimary "
       ref={navRef}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -46,6 +46,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link
               to="/body/home"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="text-text hover:text-text/50 text-2xl font-bold dark:text-darkText dark:hover:text-darkOnHover"
             >
               MyApp
@@ -53,7 +54,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <NavLinks
-              onLinkClick={() => setIsOpen(false)} // Close menu when link clicked
+              onLinkClick={() => setIsOpen(false)} // Close the navbar when a link is clicked
               handleDropdownToggle={handleDropdownToggle}
               activeDropdown={activeDropdown}
               dropdownRefs={dropdownRefs}

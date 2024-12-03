@@ -5,28 +5,29 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#007BFF", // Light Blue (Use for primary buttons and highlights)
-        secondary: "#28A745", // Green (Use for success messages and notifications)
-        accent: "#FFC107", // Amber (Use for attention-grabbing elements like notifications)
-        background: "#F8F9FA", // Light Grey (Use for the main background)
-        text: "#343A40", // Dark Grey (Use for primary text and icons)
-        border: "#E0E0E0", // Light Grey (Use for borders and dividers)
-        success: "#28A745", // Green (Use for positive actions and messages)
-        warning: "#FFC107", // Amber (Use for warnings and important notices)
-        error: "#DC3545", // Red (Use for errors and critical alerts)
-        highlight: "#FFD700", // Gold (Use for special highlights and important elements)
-
-        darkPrimary: "#1E1E1E", // Dark Grey (Use for primary background in dark mode)
-        darkSecondary: "#17A974", // Dark Green (Use for success messages and notifications in dark mode)
-        darkAccent: "#FFC107", // Amber (Use for attention-grabbing elements like notifications in dark mode)
-        darkBackground: "#1E1E1E", // Dark Grey (Use for the main background in dark mode)
-        darkText: "#FFFFFF", // White (Use for primary text and icons in dark mode)
-        darkOnHover: "#505050", // Dark Grey (Use for hover states on buttons and links in dark mode)
-        darkBorder: "#333333", // Medium Dark Grey (Use for borders and dividers in dark mode)
-        darkSuccess: "#17A974", // Dark Green (Use for positive actions and messages in dark mode)
-        darkWarning: "#FFC107", // Amber (Use for warnings and important notices in dark mode)
-        darkError: "#FF5252", // Bright Red (Use for errors and critical alerts in dark mode)
-        darkHighlight: "#FFD700", // Gold (Use for special highlights and important elements in dark mode)
+        primary: "#FF5733", // Vibrant Orange (for primary buttons and highlights)
+        secondary: "#33FF57", // Fresh Green (for success messages and notifications)
+        accent: "#FFC300", // Warm Yellow (for attention-grabbing elements like notifications)
+        background: "#F8F9FA", // Light Grey (for the main background)
+        text: "#333333", // Dark Grey (for primary text and icons)
+        border: "#E0E0E0", // Light Grey (for borders and dividers)
+        success: "#28A745", // Green (for positive actions and messages)
+        warning: "#FFC107", // Amber (for warnings and important notices)
+        error: "#DC3545", // Red (for errors and critical alerts)
+        highlight: "#FFD700", // Gold (for special highlights and important elements)
+        
+        darkPrimary: "#1E1E1E", // Dark Grey (for primary background in dark mode)
+        darkSecondary: "#28A745", // Green (for success messages and notifications in dark mode)
+        darkAccent: "#FFC300", // Warm Yellow (for attention-grabbing elements in dark mode)
+        darkBackground: "#1E1E1E", // Dark Grey (for the main background in dark mode)
+        darkText: "#FFFFFF", // White (for primary text and icons in dark mode)
+        darkOnHover: "#505050", // Dark Grey (for hover states on buttons and links in dark mode)
+        darkBorder: "#333333", // Medium Dark Grey (for borders and dividers in dark mode)
+        darkSuccess: "#28A745", // Green (for positive actions and messages in dark mode)
+        darkWarning: "#FFC107", // Amber (for warnings and important notices in dark mode)
+        darkError: "#FF5252", // Bright Red (for errors and critical alerts in dark mode)
+        darkHighlight: "#FFD700", // Gold (for special highlights and important elements in dark mode)
+        
       },
       fontSize: {
         cXS: ".75rem",

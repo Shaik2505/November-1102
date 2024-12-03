@@ -40,7 +40,7 @@ const EditProfileModal = ({ userData, isOpen, onClose, onSave }) => {
     <div
       id="modalBackground"
       onClick={handleClickOutside}
-      className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm"
+      className=" pt-16 fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm"
     >
       <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full relative">
         <button
